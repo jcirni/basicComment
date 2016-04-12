@@ -4,7 +4,17 @@
  }
  .comments p:nth-child(even) {
  	background: lavender;
+    
 }
 .comments p:nth-child(odd) {
 	background: gainsboro;
+   
+}
+
+.comments p {
+    
+}
+
+input {
+    border-radius: 5px;
 }
