@@ -2,19 +2,70 @@
   margin: 0;
   padding: 0;
  }
+
+body{
+    background: #f9e933;
+    width:500px;
+    margin:auto;
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background: white;
+}
+
+nav {
+    width: 200px;
+    margin: auto;
+    float: right;
+}
+
+main {
+    background: white;
+}
+
+header, main, footer {
+    min-width; 855px;
+}
+
+h1 {
+    color:maroon;
+    text-align: center;
+}
+
+p {
+    color: gray;
+    border: 1px solid gray;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
  .comments p:nth-child(even) {
  	background: lavender;
     
 }
+
 .comments p:nth-child(odd) {
 	background: gainsboro;
-   
-}
-
-.comments p {
-    
 }
 
 input {
     border-radius: 5px;
+}
+
+a {
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: tomato;
+}
+
+footer {
+    background: gray;
+}
+
+footer li {
+    list-style: none;
 }
