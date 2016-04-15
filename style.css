@@ -3,34 +3,75 @@
   padding: 0;
  }
 
-body{
+body {
     background: #f9e933;
-    width:500px;
+    width:855px;
     margin:auto;
     font-family: 'Open Sans', sans-serif;
 }
+
+
 header {
     background: white;
+    overflow: auto;
+    margin-bottom: 20px;
 }
 
-nav {
-    width: 200px;
-    margin: auto;
+header h1{
+    float: left;
+    width: 565px;
+    margin-left: 5px
+}
+
+header nav {
     float: right;
+    width: 285px;
 }
 
 main {
     background: white;
+    overflow: auto;
+}
+
+main h2, main .comment-input {
+    float: left;
+    width 285px;
+    margin-top: 45px;
+}
+
+main .comment-input p {
+    border: none;
+}
+
+main .comment-input button {
+    padding: 2px 10px 2px 10px;
+    border-radius: 3px;
+}
+
+main .comment-input input{
+    padding: 2px 10px 2px 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+main .comments {
+    float: right;
+    width: 570px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
 }
 
 header, main, footer {
     min-width; 855px;
 }
 
-h1 {
-    color:maroon;
-    text-align: center;
+header .container, main .container, footer . container{
+    max-width: 855px;
+    margin: auto;
 }
+
+
 
 p {
     color: gray;
